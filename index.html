@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Hello HTML!</title>
+   <link rel="stylesheet" href="./site.css" type="text/css" />
+ </head>
+
+ <body>
+
+   <header>
+     <div class="container">
+       <h1>My Website</h1>
+
+       <nav class="navbar navbar-inner">
+         <ul>
+           <li class="active"><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="">Contact Us</a></li>
+           <li><a href="gallery.html">Gallery</a></li>
+         </ul>
+       </nav>
+     </div>
+   </header>
+   <main class="main-content">
+   <div class="clear"> </div>
+   <div class="content">
+     <div class="container">
+         <section class="landing">
+            <h1 class="landing-message"></h1>
+            <button class="button" type="button" name="submitForm" value="Submit">SUBMIT</button>
+         </section>
+
+       <div class="myForm">
+         <form action="" class="formItems">
+           <label for="Name">Name:</label>
+           <input type="text" name="Name" value="">
+           <label for="Email">Email Address:</label>
+           <input type="email" name="EmailAddress" value="">
+           <label for="password">Password</label>
+           <input type="password" min="10" name="password" value="" placeholder="Enter Password">
+           <label for="Options">Choodse Fruit:</label>
+
+           <select name="Fruits" id="">
+             <optgroup label="Sweet">
+               <option value="mango">Mango</option>
+               <option value="watermelon">Watermelon</option>
+             </optgroup>
+             <optgroup label="Sour">
+               <option value="santol">Santol</option>
+               <option value="green mango">Green Mango</option>
+             </optgroup>
+           </select>
+           <label for="Comments">Comment: </label>
+           <textarea name="comment" rows="4" placeholder="Input Comment Here..."></textarea>
+           <button class="button" type="button" name="submitForm" value="Submit">SUBMIT</button>
+         </form>
+       </div>
+
+       <div id="left-side">
+         <h3>Header 3</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste mollitia quis eius voluptatum sint ex adipisci suscipit provident rem, quae. Amet molestias nemo perferendis dolore accusamus minima quos, dolor officiis.</p>
+       </div>
+       <div id="right-side">
+         <h3>Header 3</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam animi doloremque ea unde, mollitia in tenetur excepturi, similique recusandae ipsa.</p>
+       </div>
+
+       <!-- end of Container Div -->
+     </div>
+   </div>
+   <footer style="margin-top: 1000px">
+
+   </footer>
+   </main>
+ </body>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+ </html>
